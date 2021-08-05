@@ -1,0 +1,245 @@
+<section class="content-box">
+  <app-sidebar id="sidebar"></app-sidebar>
+  <app-header id="header"></app-header>
+  <div class="user-container" >
+    <div class="title-view">
+      <div class="row">
+        <div class="col-md-5">
+          <h3>  <img src="../assets/images/archive.svg" alt=""> Parametros</h3>
+        </div>
+        <div class="col-md-7 text-right">
+          <button type="button" name="button" class="btn-daiso" routerLink="/">Actualizar Parametros</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Platts</h4>
+          <label for="Name">Platts 1</label>
+          <input type="text" class="form-control" placeholder="1" >
+          <label for="Name">Platts 2</label>
+          <input type="text" class="form-control" placeholder="2" >
+          <label for="Name">Platts 3</label>
+          <input type="text" class="form-control" placeholder="3" >
+          <label for="Name">Platts 4</label>
+          <input type="text" class="form-control" placeholder="4" >
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Precios Referencia OTSA</h4>
+          <label for="Name">Super</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Regular</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Diesel</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Precios Referencia TASA</h4>
+          <label for="Name">Vpower</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Super</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Regular</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Diesel</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">ULSD</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Precios Referencia ZOLIC</h4>
+          <label for="Name">Fuel Oil</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Precios Referencia Comercial</h4>
+
+          <label for="Name">Super</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Regular</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Diesel</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+
+
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Precios Permisible Comercial</h4>
+
+          <label for="Name">Super</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Regular</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Diesel</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Fuel Oil</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Precios Permisible Retail</h4>
+
+          <label for="Name">Vpower</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Super</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Regular</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">Diesel</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+          <label for="Name">ULSD</label>
+          <input type="text" class="form-control" value="Q 20.00" >
+
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box-form-create">
+          <h4>Rangos Permisibles</h4>
+
+          <label for="Name">Rango Permisible Retail (Bajada)</label>
+          <input type="text" class="form-control" value="Q 2.00" >
+          <label for="Name">Rango Permisible Comercial (Bajada)</label>
+          <input type="text" class="form-control" value="Q 2.00" >
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <h4>Marcas</h4>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Uno</td>
+
+
+                <td class="text-right">
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Shell</td>
+
+
+                <td class="text-right">
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-12">
+
+          <button type="button" name="button" class="btn-daiso" routerLink="/add-brand">Añadir Marca</button>
+
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <h4>Empresa</h4>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Codito ST</th>
+                <th>Sucursales</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Campero S.A.</td>
+                <td>132</td>
+                <td>0</td>
+                <td class="text-right">
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/company" routerLinkActive="active" >Ver Detalles</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Los Pinos S.A.</td>
+                <td>1234</td>
+                <td>2</td>
+                <td class="text-right">
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/company" routerLinkActive="active" >Ver Detalles</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-12">
+
+          <button type="button" name="button" class="btn-daiso" routerLink="/add-company">Añadir Empresa</button>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</section>

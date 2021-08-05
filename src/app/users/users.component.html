@@ -1,0 +1,170 @@
+<section class="content-box">
+  <app-sidebar id="sidebar"></app-sidebar>
+  <app-header id="header"></app-header>
+  <div class="user-container" *blockUI="'user-view'">
+    <div class="title-view">
+      <h3>  <img src="../assets/images/users.svg" alt=""> Usuarios Registrados</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <input type="text" name="" value="" placeholder="Buscar Usuario" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <a routerLink="/create-user" routerLinkActive="active" class="btn-daiso">Crear Usuario</a>
+      </div>
+      <div class="col-md-12">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Correo Electrónico</th>
+                <th>Perfil</th>
+                <th>Retail</th>
+                <th>Fecha de Creación</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>Gerente General</td>
+                <td>No Aplica</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>TM</td>
+                <td>Zona 10</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>Agente</td>
+                <td>Zona 10</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>Admin SS</td>
+                <td>Zona 10</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>Admin Pricing</td>
+                <td>No Aplica</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>TM Comercial</td>
+                <td>No Aplica</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>Gerente de Negocios Retail</td>
+                <td>Zona 10</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Esteban Paz</td>
+                <td>estebanpaz@gmail.com</td>
+                <td>Gerente de Negocios Comercial</td>
+                <td>No Aplica</td>
+                <td>12/12/2021</td>
+                <td>
+                  <div ngbDropdown class="d-inline-block btn-details">
+                    <button class="drop-more" id="dropdownBasic1" ngbDropdownToggle><img src="../assets/images/edit.svg" alt=""></button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                      <button ngbDropdownItem routerLink="/edit-user" routerLinkActive="active" >Editar</button>
+                      <button ngbDropdownItem >Eliminar</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

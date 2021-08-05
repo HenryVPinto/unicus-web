@@ -1,0 +1,23 @@
+<section class="content-box">
+  <app-sidebar id="sidebar"></app-sidebar>
+  <app-header id="header"></app-header>
+  <div class="user-container">
+    <div class="title-view">
+      <h3> <img src="../assets/images/archive.svg" alt=""> Crear Nueva Empresa</h3>
+
+    </div>
+    <div class="box-form-create">
+      <p>Para agregar una sucursal debe crear primero la Empresa principal.</p>
+      <label for="Name">Nombre de la Empresa</label>
+      <input type="text" class="form-control" placeholder="Empresa" >
+
+      <label for="Name">Código ST</label>
+      <input type="text" class="form-control" placeholder="Código ST" >
+
+
+      <div class="text-center">
+        <button class="btn-daiso" (click)="verify()" > Crear Empresa </button>
+      </div>
+    </div>
+  </div>
+</section>

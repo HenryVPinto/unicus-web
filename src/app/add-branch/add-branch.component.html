@@ -1,0 +1,22 @@
+<section class="content-box">
+  <app-sidebar id="sidebar"></app-sidebar>
+  <app-header id="header"></app-header>
+  <div class="user-container">
+    <div class="title-view">
+      <h3> <img src="../assets/images/archive.svg" alt=""> Crear Nueva Sucursal</h3>
+
+    </div>
+    <div class="box-form-create">
+      <label for="Name">Nombre de la Sucursal</label>
+      <input type="text" class="form-control" placeholder="Sucursal" >
+
+      <label for="Name">Código ST</label>
+      <input type="text" class="form-control" placeholder="Código ST" >
+
+
+      <div class="text-center">
+        <button class="btn-daiso" (click)="verify()" > Crear Sucursal </button>
+      </div>
+    </div>
+  </div>
+</section>

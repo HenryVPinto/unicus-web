@@ -1,0 +1,39 @@
+<section class="content-box">
+  <app-sidebar id="sidebar"></app-sidebar>
+  <app-header id="header"></app-header>
+  <div class="user-container" >
+    <div class="title-view">
+      <h3>  <img src="../assets/images/users.svg" alt=""> Editar Usuario</h3>
+    </div>
+    <div class="box-form-create">
+      <label for="Name">Nombre</label>
+      <input type="text" class="form-control"  value="Esteban">
+      <label for="LastName">Apellido</label>
+      <input type="text" class="form-control" value="Paz">
+      <label for="Email">Correo Electrónico</label>
+      <input type="text" class="form-control" value="estebanpaz@gmail.com">
+      <label for="Profile">Perfil de Usuario</label>
+      <select class="form-control" name="">
+        <option value="">Gerente General</option>
+        <option value="">TM</option>
+        <option value="">Agente</option>
+        <option value="">Admin SS</option>
+        <option value="">Admin Pricing</option>
+        <option value="">TM Comercial</option>
+        <option value="">Gerente de Negocios Retail</option>
+        <option value="">Gerente de Negocios Comercial</option>
+      </select>
+      <label for="Email">Retail</label>
+      <input type="text" class="form-control" value="No Aplica">
+      <label for="Password">Nueva Contraseña</label>
+      <input type="password" class="form-control" placeholder="Contraseña" autocomplete="new-password">
+      <label for="Password">Confirmar Contraseña</label>
+      <input type="password" class="form-control" placeholder="Confirmar Contraseña" autocomplete="new-password">
+
+
+      <div class="text-center">
+        <button class="btn-daiso" (click)="verify()" > Guardar Cambios </button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,41 @@
+<section class="content-box">
+  <app-sidebar id="sidebar"></app-sidebar>
+  <app-header id="header"></app-header>
+  <div class="user-container" >
+    <div class="title-view">
+      <h3>  <img src="../assets/images/users.svg" alt=""> Crear Nuevo Usuario</h3>
+    </div>
+    <div class="box-form-create">
+      <label for="Name">Nombre</label>
+      <input type="text" class="form-control" placeholder="Nombre" >
+      <label for="LastName">Apellido</label>
+      <input type="text" class="form-control" placeholder="Apellido">
+      <label for="Email">Correo Electrónico</label>
+      <input type="text" class="form-control" placeholder="Correo Electrónico">
+      <label for="Profile">Perfil de Usuario</label>
+      <select class="form-control" name="">
+        <option value="">Seleccione una opción</option>
+        <option value="">Gerente General</option>
+        <option value="">TM</option>
+        <option value="">Agente</option>
+        <option value="">Admin SS</option>
+        <option value="">Admin Pricing</option>
+        <option value="">TM Comercial</option>
+        <option value="">Gerente de Negocios Retail</option>
+        <option value="">Gerente de Negocios Comercial</option>
+      </select>
+      <label for="Email">Retail</label>
+      <input type="text" class="form-control" placeholder="Zona">
+      <label for="Password">Contraseña</label>
+      <input type="password" class="form-control" placeholder="Contraseña" autocomplete="new-password">
+      <label for="Password">Confirmar Contraseña</label>
+      <input type="password" class="form-control" placeholder="Confirmar Contraseña" autocomplete="new-password">
+      <label for="Date">Fecha de Creación de Usuario</label>
+      <input type="text" class="form-control" placeholder="12/05/2019" disabled>
+
+      <div class="text-center">
+        <button class="btn-daiso" (click)="verify()" > Crear Usuario </button>
+      </div>
+    </div>
+  </div>
+</section>
